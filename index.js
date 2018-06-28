@@ -84,8 +84,6 @@ function sortByScoreDesc(playerA, playerB) {
 }
 
 function createOverview(results) {
-    let inTheRace = true;
-
     return results.reduce((list, player) => {
         list += chalk.bold.yellow(player.score) + getStars(player.stars) + '\t' + (player.isStillInTheRace ? chalk.green(player.name) : chalk.red(player.name)) + '\n\r';
         return list;
