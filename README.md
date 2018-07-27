@@ -16,7 +16,7 @@ npm link
 Use on command line, for instance:
 
 ```sh
-flip-flop \<trophyFilePath>
+flip-flop <trophyFilePath>
 ```
 
 ### Trophy file format
